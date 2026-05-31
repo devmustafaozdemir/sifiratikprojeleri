@@ -71,6 +71,45 @@ body {
   line-height: 1.45;
 }
 
+.countdown-card{
+    margin: 24px auto 0;
+    padding: 18px;
+
+    background: linear-gradient(
+        135deg,
+        #22c55e 0%,
+        #16a34a 100%
+    );
+
+    border-radius: 24px;
+
+    color: white;
+
+    box-shadow:
+      0 16px 40px rgba(24,173,77,.25);
+}
+
+.countdown-label{
+    font-size: 14px;
+    font-weight: 600;
+    opacity: .9;
+    margin-bottom: 6px;
+}
+
+.countdown-time{
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+@media (max-width:480px){
+
+    .countdown-time{
+        font-size:22px;
+    }
+
+}
+
 .game-panel {
   background: rgba(255, 255, 255, .88);
   border: 1px solid var(--border);
